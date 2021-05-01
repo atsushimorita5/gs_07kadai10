@@ -1,0 +1,146 @@
+.title {
+  color: rgb(82, 59, 46);
+  text-align: center;
+}
+
+.wrap{
+  text-align: center;
+}
+.inner{
+  margin: auto;
+  padding: 0 19px;
+}
+
+.login{
+  font-weight: bold;
+  margin-bottom: 24px;
+  text-align: left;
+  padding: 6px 0 6px 20px;
+  border-left: solid 3px #c32214;
+  font-size: 20px;
+}
+
+.panel01{
+  margin-bottom: 8px;
+  padding:10px 10px 10px 10px;
+  background: #ececec;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.inputtable{
+  margin: 0px auto;
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 15px;
+  border-color: grey;
+}
+.td{
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+.text-field{
+  text-align: left;
+}
+
+.loguinarea{
+  text-align: right;
+}
+.passarea{
+  text-align: right;
+}
+.copy{
+  font-size: 10px;
+  margin: 0px;
+  display: table;
+  border-spacing:2px;
+}
+
+.loginInfo{
+  font-size: 12px;
+  margin: 15px;
+}
+
+.submit-area.btn {
+  width: 172px; 
+  margin: 0 8px; 
+  text-align: center;
+  width: 152px;
+  height: 48px;
+
+}
+
+
+.btflat-btn {
+  font-weight: bold;
+  width: 152px;
+  height: 45px;
+  background-color:#c32214;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;  /* 枠線を消す */
+  outline: none; /* クリックしたときに表示される枠線を消す */
+}
+
+
+.submit-area{
+  height: 10px;
+}
+.atsumori{
+  text-align: right;
+}
+
+
+.memo{
+  background:linear-gradient(to bottom, rgba(243, 72, 104,1) ,rgba(158, 0, 236,1) );
+  display: none;
+  padding: 0 20px;
+  font-size: 30px;
+}
+
+#button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 30px;
+  background-color: #eee;
+  border: solid #ccc 1px;
+  cursor: pointer;
+}
+#overlay {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+}
+.cv-spinner {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px #ddd solid;
+  border-top: 4px #2e93e6 solid;
+  border-radius: 50%;
+  animation: sp-anime 0.8s infinite linear;
+}
+@keyframes sp-anime {
+  100% {
+      transform: rotate(360deg);
+  }
+}
+.is-hide {
+  display: none;
+}
